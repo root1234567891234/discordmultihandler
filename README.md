@@ -24,3 +24,5 @@ There are also things that need to be corrected.
 bot.run('bot token here')
 ```
 it's on the last line
+![캡처](https://user-images.githubusercontent.com/58334334/166687842-e132e9aa-52ef-4764-96d2-11f8dd41e156.JPG)
+![캡처2](https://user-images.githubusercontent.com/58334334/166687854-63b76d7e-bd92-4165-a0a6-f7601d6355fd.JPG)
