@@ -78,8 +78,6 @@ def tkinter():
                 for i in str2.replace("\n","").split("@")[wrong2:]:
                     Tm = Tm + f"@{i}\n"
                 entty2.insert("end",Tm)
-            print(str1.replace("\n","").split("@"))
-            print(entty1.get(1.0,"end").replace("\n","").split("@"))
             label1.config(image=dic[list(dic.keys())[select]]['img1'])
             label2.config(image=dic[list(dic.keys())[select]]['img2'])
             entty3.delete(1.0,"end")
