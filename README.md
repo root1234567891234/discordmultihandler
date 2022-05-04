@@ -14,6 +14,7 @@ And you have to convert the file to .exe using pyinstaller
 pyinstaller -F -w discordmultihander.py
 ```
 ## Description of this malware
+This malicious code uses one-way unstable encryption communication technique.
 This malicious code is a malicious code using Discord.
 victimPC -> discord(webhook) -> attacker
 This communication structure makes you more secretive.
