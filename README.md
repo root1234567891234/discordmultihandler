@@ -8,6 +8,10 @@ LURL3 = "webhooklink3"
 path = "Path where the image will be saved"
 ```
 Replace these values ​​with the ones that are relevant to what is listed.
+And you have to convert the file to .exe using pyinstaller
+```
+pyinstaller -F -w discordmultihander.py
+```
 ## Description of this malware
 This malicious code is a malicious code using Discord.
 victimPC -> discord(webhook) -> attacker
