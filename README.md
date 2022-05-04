@@ -1,4 +1,4 @@
-**WARNING : If you use it for illegal purposes, you may be subject to legal punishment. This is no joke**
+**WARNING : If you use it for illegal purposes, you may be subject to legal punishment. This is not joke**
 # discordmultihandler
 This is passive malware. you need to make a few changes to the code
 ```py
