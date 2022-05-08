@@ -23,5 +23,7 @@ But that's not a more valuable concern than a security threat.
 The main features of this malware are that it can get the title of the window being used by the victim computer, get the screen and get the cam. Keylogs are of course also possible
 ![Inked캡처_LI](https://user-images.githubusercontent.com/58334334/166728815-626e96f1-32d6-4efa-bbb5-9b4dc46276a4.jpg)
 ![캡처](https://user-images.githubusercontent.com/58334334/167295075-56e01c3c-634e-43dc-acf3-3320b654b701.JPG)
+![Inked캡처_LI](https://user-images.githubusercontent.com/58334334/167295306-bc72995b-b2f6-4886-8a7e-557c411573a5.jpg)
+
 
 **MADE BY SILLO(root123456789123,taeho070607) IN KOREA**
