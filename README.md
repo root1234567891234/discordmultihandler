@@ -1,18 +1,6 @@
 ***WARNING : If you use it for illegal purposes, you may be subject to legal punishment. This is not joke**
 # discordmultihandler
-This is passive malware. you need to make a few changes to the code
-```py
-filenameforexe = "final file name (ex. discordmultihandler.exe)"
-LURL = "webhooklink1"
-LURL2 = "webhooklink2"
-LURL3 = "webhooklink3"
-path = "Path where the image will be saved"
-```
-Replace these values ​​with the ones that are relevant to what is listed.
-And you have to convert the file to .exe using pyinstaller
-```
-pyinstaller -F -w discordmultihander.py
-```
+
 ## Description of this malware
 This malicious code uses one-way unstable encryption communication technique.
 This malicious code is a malicious code using Discord.
@@ -23,13 +11,6 @@ But it is not without its drawbacks. Because the victim's computer sends a one-w
 And because it is instantaneous communication, not continuous communication, instantaneous changes cannot be known. The information only comes according to a set tick.
 But that's not a more valuable concern than a security threat.
 The main features of this malware are that it can get the title of the window being used by the victim computer, get the screen and get the cam. Keylogs are of course also possible
-### R_handler
-This is a tool that manages malware.
-There are also things that need to be corrected.
-```py
-bot.run('bot token here')
-```
-it's on the last line
 ![캡처](https://user-images.githubusercontent.com/58334334/166687842-e132e9aa-52ef-4764-96d2-11f8dd41e156.JPG)
 ![Inked캡처_LI](https://user-images.githubusercontent.com/58334334/166728815-626e96f1-32d6-4efa-bbb5-9b4dc46276a4.jpg)
 ![캡처2](https://user-images.githubusercontent.com/58334334/166687854-63b76d7e-bd92-4165-a0a6-f7601d6355fd.JPG)
